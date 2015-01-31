@@ -397,6 +397,9 @@ abstract class JDatabaseDriver extends JDatabase implements JDatabaseInterface
 
 		// Set class options.
 		$this->options = $options;
+
+		// connect to database
+		$this->connect();
 	}
 
 	/**
