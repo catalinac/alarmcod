@@ -207,5 +207,8 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/javascript/
 			</div>
 		</div>
 		<jdoc:include type="modules" name="debug" />
+		<!--
+		ceva
+		-->
 	</body>
 </html>
